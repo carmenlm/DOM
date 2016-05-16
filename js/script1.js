@@ -12,7 +12,7 @@ function createPopup() {
     'use strict';
 
     //creamos el popup
-    var popup = window.open('popupB.html', 'PopUp', 'height=100,width=100,top=100,left=100,location=no, p resizable=yes,scrollbars=yes');
+    var popup = window.open('popupB.html', 'PopUp', 'height=100,width=300,top=100,left=100,location=no, p resizable=yes,scrollbars=yes');
 
     //si la ventana esta abierta
     if ((popup !== null) && !popup.closed) {
